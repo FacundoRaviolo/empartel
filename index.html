@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Propio CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Media-Query CSS -->
+        <link rel="stylesheet" href="media-query.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Favicon --> 
+        <link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico" />
+        <!-- Fuentes -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <!-- Iconos -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+
+        <title>Empartel S.A.S.</title>
+    </head>
+        
+    <body data-spy="scroll" data-target=".navbar" data-offset="70">
+        
+        <nav id="menuNavegacion" class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+            <div class="contenedorMenu">
+                <a href="#numero1"><img src="imagenes/logo-web-X2.png" width="154" height="60" alt="Empartel"></a>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link active" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white" href="#numero1">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link active" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white" href="#numero2">SERVICIO</a></li>
+                        <li class="nav-item"><a class="nav-link active" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white" href="#numero3">APLICACIÓN</a></li>
+                        <li class="nav-item"><a class="nav-link active" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white" href="#numero4">KITS</a></li>
+                        <li class="nav-item"><a class="nav-link active" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white" href="#numero5">UBICACIÓN</a></li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a href="http://www.facebook.com/infoempartel" target="_blank"><img src="https://www.teleplus.com.tr/media/wysiwyg/resimler/facebook-logo.png"></a>
+                    </span>
+                </div>
+            </div>
+        </nav> 
+        
+        <div id="numero1" class="parallax-window" data-bleed="100" data-parallax="scroll" data-image-src="imagenes/fondocasalight.jpg">
+            <div id="numero1Interior" class="container">
+                <div class="row">
+                    <div id="Principal" class="col-md-12">
+                        <p class="slogan" style="margin-bottom:30px;">Tu tranquilidad en nuestras manos!</p>                        
+                    </div>
+                    <div id="Bienvenida" class="col-md-7">
+                        <p class="textoBienvenida">Protegé tu casa o negocio con Empartel</p>
+                        <p class="subtextoBienvenida" style="margin-top: 30px; margin-bottom:20px; font-size:35px;">Monitoreo desde <span style="color:#ffd200">$650</span> mensuales</p>
+                        <p class="numeroTelefono" style="font-size:40px; margin-bottom: 0px"><span style="color:#0a4a6d"><i class="fas fa-phone"></i></span> 0351 4648667</p>
+                        <p class="numeroTelefono" style="font-size:40px; margin-bottom: 0px"><span style="color:#25D366"><i class="fab fa-whatsapp"></i></span> 351 8145000</p>
+                        <p class="aclaracion" style="font-size: 17px; margin-bottom: 10px">¡Llamanos o comunicate con nosotros por WhatsApp!</p>                           
+                        <img id="imagenPromo" src="imagenes/promo1.png">
+                        <p class="aclaracion" style="font-size: 17px; margin-bottom:0px">Servicio de monitoreo por línea fija o celular</p>    
+                    </div>
+                    <div id="Contacto" class="col-md-5 achicarCelular radioSiete " style="background-color:rgb(10,74,109,0.5); padding-top:10px; padding-bottom:15px"><p class="tituloContacto">¡Consultá por nuestros servicios!</p>
+                        
+                        <form id="contact-form" class="formulario" method="post" action="contacto.php" role="form" style="color: white">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Nombre *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Ingrese su nombre" required="required" data-error="El nombre es obligatorio.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Apellido *</label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Ingrese su apellido" required="required" data-error="El apellido es obligatorio.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Ingrese su email" required="required" data-error="El email es obligatorio.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_email">Teléfono</label>
+                                            <input id="form_control" type="text" name="phone" class="form-control" placeholder="Ingrese su teléfono (opcional)">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <!--
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_need">Asunto *</label>
+                                            <select id="form_need" name="need" class="form-control" required="required" data-error="El asunto es obligatorio.">
+                                                <option value=""></option>
+                                                <option value="Request quotation">Request quotation</option>
+                                                <option value="Request order status">Request order status</option>
+                                                <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                                <option value="Other">Otro</option>
+                                            </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Mensaje *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Escribe tu mensaje" rows="4" required="required" data-error="Por favor, dejanos un mensaje."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input id="BotonEnviar" type="submit" class="btn btn-send" value="Enviar" style="width: 100%; color:#0a4a6d; font-weight: bold;">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="numero2" style="background-color:white; padding-top: 60px; padding-bottom: 60px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 contratar" style="font-size:30px; text-align: center">
+                    <p>¿Por qué contratar a <strong>Empartel</strong>?</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <div class="icon"><img src="imagenes/24x365.png" class="radioSiete imagenContratar"></div><p style="margin-bottom: 0px;">Monitoreo las 24 horas del día los 365 días del año</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <a href="#numero3"><div class="icon"><img src="imagenes/smartphoneicon.png" class="radioSiete imagenContratar"></div></a><p style="margin-bottom: 0px;">Controlá tu hogar o comercio desde tu Smartphone</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <div class="icon"><img src="imagenes/casa.png" class="radioSiete imagenContratar"></div><p style="margin-bottom: 0px;">Adecuamos el sistema de acuerdo a tus necesidades</p>
+                    </div>         
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <div class="icon"><img src="imagenes/cordoba.png" class="radioSiete imagenContratar"></div><p style="margin-bottom: 0px;">Empresa homologada y habilitada por la Policía de la Provincia de Córdoba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="numero3" class="parallax-window" data-bleed="100" data-parallax="scroll" data-image-src="imagenes/livingroomOscuro.jpg" style="padding-top: 60px; padding-bottom: 60px">
+            <div class="container">
+                <div class="row">
+                    <div id="appData" class="col-md-8 achicarCelular">
+                        <p class="Smartphone">¡Protegé tu casa fácilmente a través de tu Smartphone!</p>
+                        <p class="DescripcionTahachi">Con nuestra aplicación podrás monitorear lo que ocurre en tu hogar o comercio, cuando quieras y donde sea que estés.</p>
+                        <p class="DescripcionTahachi" style="margin-bottom: 0px;">La aplicación permite:</p>
+                        <p class="DescripcionTahachi" style="margin-bottom: 0px;">• Supervisar tu alarma</p>
+                        <p class="DescripcionTahachi" style="margin-bottom: 0px;">• Accionar botón de pánico</p>
+                        <p class="DescripcionTahachi" style="margin-bottom: 0px;">• Ingreso asistido personalizado</p>
+                        <p class="DescripcionTahachi" >• Administrar múltiples alarmas</p>
+                        <p class="DescripcionTahachi">La aplicación se comunica e interactúa con la central de monitoreo por medio de conexión de datos.</p>
+                        <p class="DescripcionTahachi" style="margin-bottom: 0px;">Podés encontrar nuestra aplicación en la <strong>App Store</strong> y en <strong>Google Play</strong>.</p>
+                    </div>
+                    <div id="contenedorSmartphone" class="col-md-4" style="text-align: center"><img src="imagenes/smartphoneNuevo.png" id="imagenSmartphone"></div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="numero4" style="background-color: white; padding-top: 60px; padding-bottom: 60px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 kitBasico" style="font-size:30px; text-align: center">
+                    <p>El <strong>Kit Básico</strong> (cableado) incluye:</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kit1.png"><p>Panel</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kit2.png"><p>1 Sensor Infrarrojo</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kit3.png"><p>2 Sensores Magnéticos</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kit4.png"><p>Sirena interior</p>
+                    </div>
+                    <div class="col-md-12" style="text-align: center"><p style="margin-bottom:35px; font-family:'Raleway', sans-serif; font-size:16px;">Central • Gabinete • Batería de alta capacidad • Transformador • Botón de Pánico</p></div>
+                    <div class="col-md-12 kitBasico" style="font-size:30px; text-align: center">
+                    <p>El <strong>Kit Inalámbrico</strong> incluye:</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kit1.png"><p>Panel</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kitIn2.png"><p>Sensores Movimiento + Cámara</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kitIn3.png"><p>Sensores Inalámbricos</p>
+                    </div>
+                    <div class="col-xl-3 col-md-6" style="text-align: center; font-family:'Raleway', sans-serif; font-size:16px;">
+                        <img class="kitImagen" src="imagenes/kitIn4.png"><p>Sirena</p>
+                    </div>
+                    <div class="col-md-12" style="text-align: center"><p style="margin-bottom:35px; font-family:'Raleway', sans-serif; font-size:16px;">Central • Gabinete • Batería de alta capacidad • Transformador • Botón de Pánico</p></div>
+                    <div class="col-md-12" style="text-align: center"><p style="margin-bottom:0px; font-family:'Raleway', sans-serif; font-size:16px;">Consultá por la instalación de otros kits con <strong>muchas opciones más.</strong></p></div>
+                </div>
+            </div>
+        </div>
+        
+    <div id="numero5" style="height: 500px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.7650976811224!2d-64.16924044210494!3d-31.454598295952486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a352ecce303d%3A0x560213d670824e8e!2sEmpartel!5e0!3m2!1ses!2sar!4v1538252245799" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+        
+    <div id="numero6" style="background-color:white; padding-top: 60px; padding-bottom: 60px">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-md-12 kitBasico" style="font-size:30px; text-align: center">
+                    <p style="margin-bottom:20px">Formas de Pago:</p>                
+                </div>
+                <div class="col-md-12" style="text-align: center; padding-bottom:15px;"><img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-visa.png">   <img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-mastercard.png">   <img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-americanexpress.png">   <img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-naranja.png">   <img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-cordobesa.png">   <img hspace="10" vspace="10" class="tarjetas radioSiete" src="imagenes/t-mercadopago.png"></div>
+            </div>
+        </div>
+    </div>
+
+        <div id="footer">
+            <div class="container">
+                <p style="text-align: center; margin:0px; padding-bottom: 30px; padding-top:30px;"><strong>Empartel 2018</strong><br><i class="fas fa-phone"></i> 0351 4648667 • <i class="fab fa-whatsapp"></i> 351 8145000 • <i class="fas fa-map-marker-alt"></i> O'Higgins Mall - Local 12 • Bernardo O'Higgins 3551, Córdoba<br><br>Sitio web desarrollado por <a href="mailto:raviolofacundo@gmail.com" onmouseover="this.style.color='#4babec';"  onmouseout="this.style.color='white';" style="color:white;">Facundo Raviolo</a></p>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+        <!-- JQUERY ORIGINAL BOOTSTRAP 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        
+        <!-- JQUERY NO SLIM -->
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <script src=parallax.min.js></script>
+        <script src=propio.js></script>
+        <script src=contact.js></script>
+
+    </body>
+    
+</html>
